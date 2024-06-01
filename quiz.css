@@ -1,0 +1,93 @@
+body{
+    margin: 0%;
+    text-align: center;
+    /*background-color: burlywood*/
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+h1{
+    color: #DE3163;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+
+.container{
+    background-color: #7393B3;
+    height: 500px;
+    width: 45%;
+    position: relative;
+    left: 415px;
+    
+    border-radius: 5%;
+}
+#qs{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 15%;
+}
+button{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(0, 136, 255);
+    color: white;
+    border: none;
+}
+.start:hover{
+    background-color: rgb(0, 34, 255);
+}
+.next:hover{
+    background-color: rgb(0, 34, 255);
+}
+.choices:hover {
+    background-color: rgb(0, 34, 255);
+}
+.choices:active {
+    background-color: rgb(89, 0, 255);
+}
+
+.choices{
+    width: 150px;
+    height: 70px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.start{
+    width: 100px;
+    height: 70px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 20%;
+    cursor: pointer;
+    box-shadow: 0px 9px #999;
+    
+}
+.start:active{
+    box-shadow: 0 5px #7e5252;
+    transform: translateY(10px);
+}
+
+#result{
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.next{
+    width: 100px;
+    height: 70px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 20%;
+    cursor: pointer;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+
+
